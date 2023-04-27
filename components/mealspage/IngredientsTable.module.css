@@ -1,0 +1,26 @@
+.ingredientsTable {
+  max-width: 500px;
+  width: 100%;
+  border-spacing: 0px;
+}
+
+.ingredientsTable tr {
+  width: 100%;
+  background-color: #2a2b2e;
+}
+
+.ingredientsTable tr:nth-child(even) {
+  background-color: #303134;
+}
+
+.ingredientsTable tr:hover {
+  background-color: rgb(25, 26, 28);
+}
+
+.ingredientsTable tr td {
+  padding: 0.5rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
